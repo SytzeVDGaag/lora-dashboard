@@ -1,1 +1,1 @@
-<?php include_once("INF2DLora.html"); ?>
+<?php include_once("LoraHTML/INF2DLora.html"); ?>
