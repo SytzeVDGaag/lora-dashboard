@@ -1,48 +1,61 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
+
 body {
     background-color: #6b87bf;
     font-family: Arial, Helvetica, sans-serif;
-  }
+}
 
-h1{
+h1 {
     color: antiquewhite;
     text-align: center;
 }
-h2{
+
+h2 {
     color: antiquewhite;
     text-align: center;
 }
-h3{
+
+h3 {
     color: antiquewhite;
 }
-p{
-    padding: 5px;
+
+p {
+    padding: 2%;
     color: antiquewhite;
     font-size: 1.25em;
 }
-a{
+
+a {
     color: black;
 }
 
-#sort{
+#sort {
     color: antiquewhite;
     background-color: #6b87bf;
     border: none;
     font-size: 1.5em;
 }
 
+#classroomcontainer {
+    WIDTH: 100%;
+    height: 60%;
+    float: left;
+    text-align: center;
+}
+
 .roomstats {
     min-width: 200px;
-    max-width: 45%;
     border-style: solid;
     border-color: antiquewhite;
     float: left;
-    margin: 2%;
+    margin: 0 2% auto;
+    margin-bottom: 2%;
     box-shadow: 3px 3px;
 }
+
 .classroom {
     width: 100%;
     height: 21%;
@@ -51,6 +64,7 @@ a{
     padding-top: 2%;
     padding-bottom: 2%;
 }
+
 .stat {
     float: left;
     width: 50%;
@@ -59,16 +73,26 @@ a{
     padding-left: 10%;
     padding-right: 10%;
 }
-.stat > img {
+
+.stat>img {
     width: 50%;
     height: 75%;
     float: left;
 }
-.stat > h3 {
+
+.stat>h3 {
     margin-top: 30%;
     margin-bottom: 30%;
 }
 
-#backButton{
+#backButton {
     float: left;
+}
+
+.statLarge {
+    width: 40%;
+    height: 40%;
+}
+
+.statImage{
 }
