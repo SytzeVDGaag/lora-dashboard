@@ -6,18 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lora Interface</title>
     <link rel="stylesheet" type="text/css" href="INF2DLora.css">
+    <script src="script.js"></script>
 </head>
 
-<body>
+<body onload="getOption()">
+    
     <h1>Classrooms</h1>
 
     <form>
         <p>Sort by:
-            <select id="sort" name="sort">
-                <option value="coolest">Coolest</option>
-                <option value="hottest">Hottest</option>
-                <option value="mosthumid">Most Humid</option>
-                <option value="leasthumid">Least Humid</option>
+            <select id="sort" name="sort" onchange="getOption()">
+                <option value="coolest" selected="selected">Coolest</option>
+                <option value="warmest">Hottest</option>
+                <option value="moist">Most Humid</option>
+                <option value="dry">Least Humid</option>
             </select>
         </p>
     </form>
