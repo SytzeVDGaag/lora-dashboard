@@ -8,14 +8,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    color: antiquewhite;
+.header {
+    margin-top: 10px;
+    color: white;
     text-align: center;
 }
 
 p {
     padding: 2%;
-    color: antiquewhite;
     font-size: 1.25em;
 }
 
@@ -24,7 +24,7 @@ a {
 }
 
 #sort {
-    color: antiquewhite;
+    color: white;
     background-color: #6b87bf;
     border: none;
     font-size: 1.5em;
@@ -37,8 +37,8 @@ a {
 }
 
 .roomstats {
-    min-width: 200px;
-    width: calc(20vw - 22px);
+    min-width: 250px;
+    width: calc(20% - 22px);
     background-color: white;
     border-radius: 25px;
     border-color: transparent;
@@ -46,6 +46,14 @@ a {
     margin: 10px;
     box-shadow: 3px 3px;
 }
+/*@media only screen and (max-width: 1200px)
+{
+    .roomstats{
+        min-width: 250px;
+        width: calc(25% - 22px);
+        margin: 10px;
+    }
+}*/
 
 .classroom {
     color: black;
