@@ -4,18 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" Content-Type="multipart/form-data">
+    <link rel='icon' href='img/favicon.ico' type='image/x-icon'>
     <title>Lora Interface</title>
     <link rel="stylesheet" type="text/css" href="INF2DLora.css">
     <script src="script.js"></script>
 </head>
 
 <body onload="getData()">
-    
     <h1 class= "header">Classrooms</h1>
 
     <form>
         <p>Sort by:
-            <select id="sort" name="sort" onchange="getData()">
+            <select id="sort" name="sort" dir="rtl" onchange="getData()">
                 <option value="coolest" selected="selected">Coolest</option>
                 <option value="warmest">Hottest</option>
                 <option value="moist">Most Humid</option>

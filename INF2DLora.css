@@ -4,18 +4,19 @@
 }
 
 body {
-    background-color: #6b87bf;
+    background-color: #D6E2EF;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
-    margin-top: 10px;
+    padding-top: 10px;
     color: white;
+    background-color: #133252;
     text-align: center;
 }
 
 p {
-    padding: 2%;
+    padding: 10px;
     font-size: 1.25em;
 }
 
@@ -24,16 +25,19 @@ a {
 }
 
 #sort {
-    color: white;
-    background-color: #6b87bf;
+    color: black;
+    background-color: #D6E2EF;
     border: none;
-    font-size: 1.5em;
+    font-size: 1.25em;
+}
+
+select::-ms-expand {
+    display: none;
 }
 
 #classroomcontainer {
     float: left;
     text-align: center;
-    width: 100vw;
 }
 
 .roomstats {
@@ -46,14 +50,13 @@ a {
     margin: 10px;
     box-shadow: 3px 3px;
 }
-/*@media only screen and (max-width: 1200px)
+
+@media only screen and (max-width: 540px)
 {
     .roomstats{
-        min-width: 250px;
-        width: calc(25% - 22px);
-        margin: 10px;
+        width: calc(100% - 22px);
     }
-}*/
+}
 
 .classroom {
     color: black;
