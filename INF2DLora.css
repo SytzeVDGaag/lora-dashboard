@@ -13,15 +13,6 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    color: antiquewhite;
-    text-align: center;
-}
-
-h3 {
-    color: antiquewhite;
-}
-
 p {
     padding: 2%;
     color: antiquewhite;
@@ -40,38 +31,45 @@ a {
 }
 
 #classroomcontainer {
-    WIDTH: 100%;
-    height: 60%;
     float: left;
     text-align: center;
+    width: 100vw;
 }
 
 .roomstats {
     min-width: 200px;
-    border-style: solid;
-    border-color: antiquewhite;
+    width: calc(20vw - 22px);
+    background-color: white;
+    border-radius: 25px;
+    border-color: transparent;
     float: left;
-    margin: 0 2% auto;
-    margin-bottom: 2%;
+    margin: 10px;
     box-shadow: 3px 3px;
 }
 
 .classroom {
+    color: black;
+    text-align: center;
     width: 100%;
     height: 21%;
     float: left;
     text-align: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    /*padding-top: 2%;
+    padding-bottom: 2%;*/
+}
+
+.info {
+    float: left;
+    width:100%;
 }
 
 .stat {
     float: left;
-    width: 50%;
+    width: 40%;
     height: 75%;
     text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .stat>img {
